@@ -1,0 +1,46 @@
+<html>
+<!-- 加载此页面需要在manifest中配置web_accessible_resources -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<head>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right bottom, #e3fdf5, #ffe6fa);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .panel {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+        }
+
+        #time {
+            width: 100%;
+            margin-bottom: 16px;
+            height: 32px;
+        }
+
+        #start {
+            height: 32px;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel">
+        <input type="text" placeholder="请输入每个视频时长" id="time" />
+        <button id="start">开始</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
